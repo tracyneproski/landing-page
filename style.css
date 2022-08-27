@@ -2,19 +2,21 @@
 
 body {
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    margin: 0 5%;
+    margin: 0;
     min-height: 100vh;
     display:flex;
     flex-direction: column;
     justify-content: space-between;
-    align-items: center;
     background-color: #F9FAF8;
 }
 
 .topnav {
     display: flex;
     justify-content: space-between;
+    padding: 20px 80px;
+    align-items: center;
     background-color: #1F2937;
+    
 }
 
 .logo {
@@ -23,7 +25,7 @@ body {
 }
 
 ul {
-    text-decoration: none;
+    list-style: none;
 
 }
 
@@ -35,11 +37,12 @@ ul {
 }
 
 .hero {
+    background-color: #1F2937;
 
 }
 
 .hero-content {
-    background-color: #1F2937;
+    
 
 }
 
@@ -85,6 +88,12 @@ ul {
 
 }
 
+.card img {
+    width: 150px;
+    height: auto;
+    border-radius: 20px;
+}
+
 .caption {
     font-size: 12px;
     color: #1F2937;
@@ -123,7 +132,7 @@ ul {
 
 .footer {
     background-color: #1F2937;
-    
+
 }
 
 
