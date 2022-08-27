@@ -13,7 +13,7 @@ body {
 .topnav {
     display: flex;
     justify-content: space-between;
-    padding: 20px 80px;
+    padding: 20px 10%;
     align-items: center;
     background-color: #1F2937;
     
@@ -38,13 +38,19 @@ ul {
 
 .hero {
     background-color: #1F2937;
+    display: flex;
+    flex-basis: 45%;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 10% 80px 10%;
+    gap: 10%;
 
 }
 
-.hero-content {
+/* .hero-content {
     
 
-}
+}*/
 
 .main {
     font-size: 48px;
@@ -58,9 +64,11 @@ ul {
 }
 
 .hero-button {
-    font-size: 10px;
+    font-size: 16px;
     color: #F9FAF8;
     background-color: #3882F6;
+    padding: 12px 36px;
+    border-radius: 10px;
 
 
 }
