@@ -62,11 +62,15 @@ ul {
 .banner-text {
     font-size: 18px;
     color: #E5E7EB;
+}
+
+.hero .banner-text {
     margin: 8px auto;
 }
 
 .hero-button {
     font-size: 16px;
+    border: 0px solid;
     color: #F9FAF8;
     background-color: #3882F6;
     padding: 8px 36px;
@@ -126,13 +130,15 @@ ul {
 
 .quote {
     background-color: #E5E7EB;
+    padding: 10% 20%;
 }
 
 .quotation {
     font-size: 36px;
     color: #1F2937;
     font-style: italic;
-    font-weight: light;
+    font-weight: 200;
+    text-align: justify;
 
 }
 
@@ -142,22 +148,44 @@ ul {
     font-weight: bold;
 }
 
+.quote .attribution {
+    text-align: right;
+}
+
 .cta {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
     background-color: #3882F6;
-    margin: 30px 50px;
+    padding: 3% 12%;
+    margin: 5% 10%;
+    border-radius: 6px;
 }
 
 .light {
-    color: #ffffff;    
+    color: #ffffff;
+    margin: 2% 0;   
 }
 
 .cta-button {
-
+    font-size: 16px;
+    color: #F9FAF8;
+    background-color: #3882F6;
+    border: solid;
+    border-color: #F9FAF8;
+    border-width: 2px;
+    padding: 8px 36px;
+    border-radius: 10px;
+    margin: 8px 0;
 }
 
 .footer {
     background-color: #1F2937;
-
+    color:#F9FAF8;
+    padding: 3%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 
