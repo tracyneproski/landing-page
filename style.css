@@ -56,21 +56,22 @@ ul {
     font-size: 48px;
     color: #F9FAF8;
     font-weight: extra-bold;
+    margin: 8px auto;
 }
 
 .banner-text {
     font-size: 18px;
     color: #E5E7EB;
+    margin: 8px auto;
 }
 
 .hero-button {
     font-size: 16px;
     color: #F9FAF8;
     background-color: #3882F6;
-    padding: 12px 36px;
+    padding: 8px 36px;
     border-radius: 10px;
-
-
+    margin: 8px 0;
 }
 
 .hero img {
@@ -79,6 +80,12 @@ ul {
 }
 
 .features {
+    padding: 2% 18% 7% 18%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 7%;
 
 }
 
@@ -89,10 +96,19 @@ ul {
 }
 
 .cards {
-
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 7%;
+    padding: 3% 0 0 0;
 }
 
 .card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2%;
 
 }
 
@@ -105,6 +121,7 @@ ul {
 .caption {
     font-size: 12px;
     color: #1F2937;
+    text-align: center;
 }
 
 .quote {
