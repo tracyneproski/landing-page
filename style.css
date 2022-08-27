@@ -1,19 +1,37 @@
 /* style.css */
 
 body {
-
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 0 5%;
+    min-height: 100vh;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #F9FAF8;
 }
 
 .topnav {
+    display: flex;
+    justify-content: space-between;
+    background-color: #1F2937;
+}
 
+.logo {
+    font-size: 24px;
+    color: #F9FAF8;
 }
 
 ul {
+    text-decoration: none;
 
 }
 
 .header-links {
-
+    display: flex;
+    gap:20px;
+    font-size: 18px;
+    color: #E5E7EB;
 }
 
 .hero {
@@ -21,23 +39,42 @@ ul {
 }
 
 .hero-content {
+    background-color: #1F2937;
 
+}
+
+.main {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: extra-bold;
 }
 
 .banner-text {
-
+    font-size: 18px;
+    color: #E5E7EB;
 }
 
 .hero-button {
+    font-size: 10px;
+    color: #F9FAF8;
+    background-color: #3882F6;
+
 
 }
 
 .hero img {
-
+    width: 400px;
+    height: auto;
 }
 
 .features {
 
+}
+
+.features h2 {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: extra-bold;
 }
 
 .cards {
@@ -49,28 +86,35 @@ ul {
 }
 
 .caption {
-
+    font-size: 12px;
+    color: #1F2937;
 }
 
 .quote {
-
+    background-color: #E5E7EB;
 }
 
 .quotation {
+    font-size: 36px;
+    color: #1F2937;
+    font-style: italic;
+    font-weight: light;
 
 }
 
 .attribution {
-
+    font-size: 16px;
+    color: #1F2937;
+    font-weight: bold;
 }
 
 .cta {
-
+    background-color: #3882F6;
+    margin: 30px 50px;
 }
 
 .light {
-    color: #ffffff;
-    
+    color: #ffffff;    
 }
 
 .cta-button {
@@ -78,6 +122,7 @@ ul {
 }
 
 .footer {
+    background-color: #1F2937;
     
 }
 
